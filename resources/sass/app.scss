@@ -6,3 +6,30 @@
 
 // Bootstrap
 @import 'bootstrap/scss/bootstrap';
+
+// Bootstrap-icons
+// Update the import directory to point to it‘s location within node_modules
+$bootstrap-icons-font-dir: "bootstrap-icons/font/fonts";
+
+@import "bootstrap-icons/font/bootstrap-icons";
+
+/* HEADER */
+
+.header-box {
+    padding-top: 4px;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-box > h1 {
+    font-weight: bold;
+    letter-spacing: 0.5rem;
+}
+
+/* Vote */
+
+.vote {
+    font-size: 0.8rem;
+}

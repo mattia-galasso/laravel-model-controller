@@ -12,6 +12,9 @@
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
 </head>
 <body>
+    {{-- HEADER --}}
+    @include('partials.header')
+    {{-- MAIN --}}
     @yield('content')
 </body>
 </html>
